@@ -12,7 +12,7 @@ double media(double vet[], int n, int* i){ //Assinatura da função
   printf("---------%f ", mediaVetor=somaVetor/n); // calculando a media do vetor
 
   for (j=0; j<n; j++){
-    maisp[k]= mediaVetor = vet[j]; //subtraindo os valores do vetor pelo valor da media, o valor mais aproximado de 0 é o valor mais proximo
+    maisp[k]= mediaVetor - vet[j]; //subtraindo os valores do vetor pelo valor da media, o valor mais aproximado de 0 é o valor mais proximo
     k++; //contador, para não correr o risco do contador pegar buffer
   }
 
